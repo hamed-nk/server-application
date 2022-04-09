@@ -68,6 +68,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>server-application</finalName>
 	</build>
 
 </project>
