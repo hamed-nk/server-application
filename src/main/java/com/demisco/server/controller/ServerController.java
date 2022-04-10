@@ -97,4 +97,5 @@ public class ServerController {
     public byte[] getServerImage(@PathVariable("fileName") String fileName) throws IOException {
       return Files.readAllBytes(Paths.get(System.getProperty("user.home") + "/Downloads/images/" + fileName ));
     }
+
 }
