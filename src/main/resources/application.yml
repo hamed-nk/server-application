@@ -1,7 +1,7 @@
 spring:
   datasource:
+    url: jdbc:mysql://mysql-docker:3306/serverdb
     password: 123456789
-    url: jdbc:mysql://127.0.0.1:3305/serverdb
     username: root
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
