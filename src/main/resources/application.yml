@@ -6,11 +6,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database: MYSQL
-      hibernate:
-        ddl-auto: validate
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
     show-sql: true
+    hibernate:
+      ddl-auto: create
 
